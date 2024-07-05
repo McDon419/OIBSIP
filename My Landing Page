@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creativity</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/484514eac2.js" crossorigin="anonymous"></script>
+        <style>
+             *{margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+            
+              body {background: #053a39;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;}
+
+                    /* Heading */
+            
+              .header {position: fixed;
+                     top: 0;
+                     left: 0;
+                     width: 100%;
+                     padding: 20px;
+                     background: transparent;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                     z-index: 100%;}
+            
+            .logo {font-size: 30px;
+                   color: yellow;
+                   text-decoration: none;
+                   font-weight: 700;}
+
+            .navbar a {font-size: 18px;
+                       color: white;
+                       text-decoration: none;
+                       font-weight: 500;
+                       margin-left: 35px;
+                       transition: .3s;}
+
+           a.active {color: yellow;}
+
+           /* Home(home content) */
+            .home {margin: 150px 40px;
+                   width: 100%;
+                   padding-left: 100px;}
+
+           img {max-width: 430px;
+                float: right;
+                border: 2px solid rgb(83, 83, 80);
+                border-radius: 10px;}
+
+           .home-content {justify-content: center;
+                          align-items: center;
+                          max-width: 80%;
+                          margin-top: 40px;}
+           
+           .home-content h1 {font-size: 56px;
+                              font-weight: 700;
+                              width: 400px;
+                              line-height: 1.2;   
+                              color: white;}
+
+            .home-content strong {color: yellow;}
+
+            .home-content p {font-size: 20px;
+                             color: white;
+                             line-height: 1.2;}
+
+            .home-content input {width: 400px;
+                                 line-height: 2;
+                                 border-radius: 10px;
+                                 background: rgb(31, 31, 23);
+                                 margin: 4px;}
+
+            .home-content .active {display: inline-flex;
+                                   color: yellow;
+                                   text-decoration: none;
+                                   font-size: 24px;
+                                   font-weight: 800;}
+
+            .home-sci a {position: relative;
+                         display: inline-flex;
+                         text-decoration: none;
+                         width: 20px;
+                         justify-content: space-between;
+                         margin-top: 25px;
+                         color: yellow;}    
+
+        </style>
+    </head>
+
+    <body>
+
+    <header class="header">
+        <a href="#" class="logo">Creativity</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">FAQs</a>
+            <a href="#"></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+        </nav>
+
+    </header>
+    
+            <section class="home">
+                
+                <div class="home-content">
+                    <img src="https://img.freepik.com/premium-photo/yellow-green-human-heart-with-flowers-grey-background_124507-85501.jpg?w=740">
+                <h1><strong>Subscribe Now</strong> to Our Newsletter</h1>
+                <p>Starting your day has never felt better</p>
+                <div>
+                    <input class="name" type="text" placeholder="    Name">
+                    <input class="email" type="email" placeholder="    E-mail">
+                </div>
+                    <div class="send">
+                        <a href="#" class="active">send</a>
+                    </div>
+                <div class="home-sci">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                </div>
+
+            </section>
+    </body>
+</html>
